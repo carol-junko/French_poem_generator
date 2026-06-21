@@ -13,34 +13,20 @@
         French Poem Generator
       </h1>
       <p>
-        Welcome to your French poem creator. Use this front page to start a new poem, 
-        explore themes, and let the words flow in French.
+        Welcome to your French poem generator! Choose a theme and let the words 
+        flow to create your own poetic masterpiece in French. 
+        Whether you're inspired by love, nature, or the beauty of the seasons, 
+        this tool will help you craft verses that capture the essence of your chosen theme.
       </p>
-      <a class="button" href="#create">
-        Create a Poem
-      </a>
-      <section id="create" style="margin-top: 2rem;">
-        <h2>
-          Start a New Poem
-        </h2>
-        <p>
-          Choose a mood, a setting, or a season to inspire your next piece of French poetry.
-        </p>
-        <ul>
-          <li>
-            Romance
-          </li>
-          <li>
-            Nature
-          </li>
-          <li>
-            Rêverie
-          </li>
-          <li>
-            Crépuscule
-          </li>
-        </ul>
-      </section>
+      <form id="poem-form">
+      <input type="text" id="theme-input" placeholder="Enter a theme (e.g., love, nature)" required />
+      <br />
+      <br />
+      <button type="submit" class="button">Generate Poem</button>
+      </form>
+      <div id="poem-output">
+        poem will appear here...
+      </div>
       <footer>
         Made for simple French poem generation and inspiration.
         <br />
